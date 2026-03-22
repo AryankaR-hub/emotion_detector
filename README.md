@@ -122,25 +122,33 @@ Content-Type: application/json
 {
   "text": "I feel overwhelmed and stressed"
 }
-⚠️ Common Issues
-ECONNREFUSED → Ensure API is running
-404 error → Use /predict endpoint (POST request)
-Kernel issues → Select correct Python environment
-Missing packages → Run pip install -r requirements.txt
-🛡️ Robustness
-Short inputs → flagged with uncertain_flag
-Missing values → handled using median / fallback values
-Conflicting signals → reduce confidence → safer decisions
+```
+## ⚠️ Common Issues
+- ECONNREFUSED → Ensure API is running
+- 404 error → Use /predict endpoint (POST request)
+- Kernel issues → Select correct Python environment
+- Missing packages → Run pip install -r requirements.txt
+```
+```
+## 🛡️ Robustness
+- Short inputs → flagged with uncertain_flag
+- Missing values → handled using median / fallback values
+- Conflicting signals → reduce confidence → safer decisions
 💡 Real-World Insight
 
-This system demonstrates that emotional understanding is inherently uncertain.
+- This system demonstrates that emotional understanding is inherently uncertain.
 
 Instead of blindly predicting, the system:
 
-Detects ambiguity
-Adjusts decisions
-Provides safe and meaningful guidance
+- Detects ambiguity
+- Adjusts decisions
+- Provides safe and meaningful guidance
+```
+```
+```
+```
 🎯 Key Learning
 
 AI systems should not only understand humans — they should guide them safely under uncertainty.
 
+```
